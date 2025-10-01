@@ -1,0 +1,142 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000; /* Fallback color */
+    background-image: url('path/to/your/image.jpg'); /* Replace with a valid URL or relative path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Header h1 styles */
+header h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive; /* Ensure cursive font for the header */
+}
+
+/* Search form styles */
+#searchForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Search input styles */
+.search-input {
+    flex: 1;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive; /* Cursive font for the search input */
+    color: #fff;
+    background-color: #444;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Search input placeholder styles */
+.search-input::placeholder {
+    color: #ccc;
+}
+
+/* Search input focus styles */
+.search-input:focus {
+    border-color: #08f;
+    box-shadow: 0 0 15px rgba(0, 136, 255, 0.5);
+}
+
+/* Search input focus placeholder styles */
+.search-input:focus::placeholder {
+    color: #08f;
+}
+
+/* Search button styles */
+.search-button {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 0 25px 25px 0;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #08f;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Search button hover styles */
+.search-button:hover {
+    background-color: #007acc;
+}
+
+/* Search button focus styles */
+.search-button:focus {
+    box-shadow: 0 0 15px rgba(0, 136, 255, 0.5);
+}
+
+/* Family area styles */
+.family-area {
+    text-align: center;
+    margin: 20px;
+}
+
+.family-area img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Image gallery styles */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Image gallery image styles */
+.image-gallery img {
+    margin: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Three dots button styles */
+.three-dots {
+    color: #fff; /* Set color to black */
+    background-color:#000 ; /* Transparent background */
+    border: none; /* Remove border */
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+}
