@@ -1,26 +1,23 @@
 # 🖼️ Free Image Search
 
-A responsive image search web application built with **HTML, CSS, and Vanilla JavaScript**. Users can search high-quality images in real time with a clean, modern interface. The project is being upgraded to a **full-stack app** with a custom Node.js + Express + MongoDB backend.
+A responsive image search web app built with **HTML, CSS, and Vanilla JavaScript**. Search any topic and instantly get high-quality images in a clean, modern grid layout. No frameworks, no dependencies — just pure web fundamentals.
 
 ## 🚀 Live Demo
 
-👉 **[https://kg0510057-prog.github.io/free-image/](https://kg0510057-prog.github.io/free-image/)**
+👉 **[kg0510057-prog.github.io/free-image](https://kg0510057-prog.github.io/free-image/)**
 
 ## ✨ Features
 
-- 🔍 Real-time image search
-- 🎨 Clean and responsive UI (mobile, tablet, desktop)
-- 🖼️ Grid layout for image results
-- ⚡ Fast and lightweight (no frameworks)
-- 📄 Pagination support
-- 🔐 Custom backend to secure API keys (in progress)
+- 🔍 Instant image search with real-time results
+- 📱 Fully responsive — works on mobile, tablet, and desktop
+- 🖼️ Clean grid layout for browsing images
+- ⚡ Lightweight and fast — no frameworks used
+- ⌨️ Press Enter to search, smooth user experience
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | HTML5, CSS3, Vanilla JavaScript (ES6+) |
-| Backend (planned) | Node.js, Express.js, MongoDB Atlas |
-| Deployment | GitHub Pages (frontend), Render (backend) |
+- **HTML5** — semantic structure
+- **CSS3** — responsive grid, modern styling
+- **Vanilla JavaScript (ES6+)** — search logic, API calls, DOM updates
+- **Unsplash API** — image source
 
-## 📁 Project Structure
